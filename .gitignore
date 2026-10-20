@@ -1,0 +1,51 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.secret
+secrets/
+credentials/
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+
+# Wazuh sensitive files
+wazuh-certificates/
+wazuh-passwords*
+passwords.txt
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Virtual machines and disk images
+*.vdi
+*.vmdk
+*.vbox
+*.vbox-prev
+*.vmx
+*.vmsd
+*.vmsn
+*.nvram
+*.iso
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
